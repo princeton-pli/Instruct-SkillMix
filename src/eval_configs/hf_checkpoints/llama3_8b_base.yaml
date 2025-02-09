@@ -1,0 +1,19 @@
+llama3_8b_base:
+  prompt_template:
+  fn_completions: 'vllm_local_completions'
+  completions_kwargs:
+    model_name: 'llama3_8b_base'
+    batch_size: 900
+    model_kwargs:
+      torch_dtype: 'bfloat16'
+    max_new_tokens: 2048
+    temperature: 0.9
+    top_p: 1.0
+    do_sample: True
+    stop_token_ids:
+    - 128001
+    - 128009
+  pretty_name: 'llama3_8b_base'
+  link: 'https://huggingface.co/meta-llama/Meta-Llama-3-8B'
+
+  

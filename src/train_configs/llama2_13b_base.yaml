@@ -1,0 +1,66 @@
+# This config assumes that you've run the following command before launching this run:
+#   tune download meta-llama/Llama-2-13b-hf --output-dir ./base_models/Llama-2-13b-hf
+
+# Tokenizer
+tokenizer:
+  _component_: torchtune.models.llama2.llama2_tokenizer
+  path: ./base_models/Llama-2-13b-hf/tokenizer.model
+
+# Dataset
+dataset:
+  _component_: torchtune.datasets.instruct_dataset
+  source: json
+  template:  torchtune.data.AlpacaInstructTemplate
+  max_seq_len: 1024
+  train_on_input: False
+  split: train
+  data_files: ""
+seed: 42
+shuffle: True
+
+# Model Arguments
+model:
+  _component_: torchtune.models.llama2.llama2_13b
+
+checkpointer:
+  _component_: torchtune.utils.FullModelHFCheckpointer
+  checkpoint_dir: ./base_models/Llama-2-13b-hf
+  checkpoint_files: [
+    pytorch_model-00001-of-00003.bin,
+    pytorch_model-00002-of-00003.bin,
+    pytorch_model-00003-of-00003.bin,
+  ]
+  recipe_checkpoint: null
+  output_dir: ""
+  model_type: LLAMA2
+resume_from_checkpoint: False
+
+# Fine-tuning arguments
+batch_size: 2
+epochs: 3
+optimizer:
+  _component_: torch.optim.AdamW
+  lr: 5e-6
+warmup_ratio: 3e-2
+loss:
+  _component_: torch.nn.CrossEntropyLoss
+max_steps_per_epoch: null
+gradient_accumulation_steps: 1
+
+# Training env
+device: cuda
+
+# Memory management
+enable_activation_checkpointing: True
+memory_efficient_fsdp_wrap: False
+
+# Reduced precision
+dtype: bf16
+
+# Logging
+metric_logger:
+  _component_: torchtune.utils.metric_logging.DiskLogger
+  log_dir: ${output_dir}
+output_dir: ./logs/Llama-2-13b-hf
+log_every_n_steps: 1
+log_peak_memory_stats: False
