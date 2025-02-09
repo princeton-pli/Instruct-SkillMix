@@ -9,6 +9,8 @@
 
 # 60 minutes on 15 epochs of 4000 examples for Llama-2-7B on 4 H100 GPUs
 
+export PROJECT_DIR=
+
 # adjust for different experiments
 model_name=llama2_7b_base                                         # llama2_13b_base, mistral_7b_v0.2_base, llama3_8b_base
 k=2                                                               # 1, 3

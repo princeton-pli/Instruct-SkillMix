@@ -10,6 +10,8 @@
 
 # 10 minutes per checkpoint for Llama-2-7B on 1 H100 GPUs
 
+export PROJECT_DIR=
+
 # adjust for different experiments
 model_name=llama2_7b_base                                         # llama2_13b_base, mistral_7b_v0.2_base, llama3_8b_base
 k=2                                                               # 1, 3
