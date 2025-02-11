@@ -12,7 +12,7 @@ from engine import *
 ### HELPER METHODS FOR DATA INPUT / OUTPUT
 ################################################
 
-def concatenate_json(file_list, output_filename):
+def concatenate_json(file_list, orig_data, output_filename):
     data_list = []
 
     for filename in file_list:
@@ -42,6 +42,8 @@ def concatenate_json(file_list, output_filename):
 
             data_list.append(new_data)
     
+    data_list += orig_data
+
     with open(output_filename, "w") as f:
         json.dump(data_list, f, indent=2)
 
@@ -100,6 +102,8 @@ def main(args):
     
     with open(args.load_path) as f:
         data = json.load(f)
+    orig_num_data = len(data)
+    orig_data = data[args.num_data:]
     data = data[:args.num_data]
 
     save_dir = os.path.join(args.save_base_dir, args.generator_model, f'k{args.k}_s{args.seed}_{args.junk_type}')
@@ -113,8 +117,8 @@ def main(args):
         all_data = list(executor.map(generate_data_fn, payloads))
 
     all_save_files = [os.path.join(save_dir, "{}.json".format(idx)) for idx in range(args.num_data)]
-    aggregated_save_file = os.path.join(args.save_base_dir, "{}_k{}_{}.json".format(args.save_prefix, args.k, args.num_data))
-    concatenate_json(all_save_files, aggregated_save_file)
+    aggregated_save_file = os.path.join(args.save_base_dir, "{}_k{}_{}.json".format(args.save_prefix, args.k, orig_num_data))
+    concatenate_json(all_save_files, orig_data, aggregated_save_file)
         
 
 
