@@ -1,0 +1,79 @@
+### 1. **Information-Seeking**
+This includes any query where the user is looking to find out facts, data, explanations, or learn about a topic. For example:
+- "What is the capital of France?"
+- "Explain how a blockchain works."
+
+### 2. **Help-Seeking**
+Queries where the user needs assistance in solving a problem or performing an action. This could be technical support, troubleshooting, or guidance on personal issues. Examples include:
+- "How do I reset my Wi-Fi router?"
+- "What are some strategies for dealing with stress?"
+
+### 3. **Instructional**
+Queries that specifically request detailed, step-by-step instructions or procedural guidance. This category is designed to assist users in understanding and executing tasks by breaking them down into sequential, manageable steps. Whether it's a practical day-to-day task, a complex technical procedure, or a creative process, the AI provides a clear, methodical approach to accomplishing specific objectives. Examples:
+- "Provide a step-by-step guide to resolving common errors in Excel formulas."
+- "Walk me through the process of setting up a basic home network."
+
+### 4. **Conversational**
+These are queries where the user is possibly looking for engagement more than specific information or tasks. This can include small talk or generative interactions aimed at entertainment or companionship. Examples:
+- "Tell me a joke."
+- "Let’s chat about movies."
+
+### 5. **Feedback-Seeking**
+Queries where users are looking for feedback on their ideas, creations, or opinions. This can be particularly relevant in educational, artistic, or professional contexts. For example:
+- "Can you critique my essay on global warming?"
+- "How does my website design look?"
+
+### 6. **Comparative**
+These queries involve comparing different items, ideas, or scenarios. Users often seek assistance in making decisions or understanding differences. For example:
+- "Should I use Python or Java for my new project?"
+- "Compare the health benefits of yoga and regular gym workouts."
+
+### 7. **Clarification-Seeking**
+These queries aim to clarify confusion or get more detailed information about a previously mentioned or understood topic. Users might need further explanation or a more refined understanding of a complex issue. Examples:
+- "Could you elaborate on how quantum computing differs from classical computing?"
+- "What did you mean by 'blockchain transparency'?"
+
+### 8. **Narrative**
+Queries where the user is interested in hearing stories, experiences, or detailed accounts of events. These can be historical, personal, or fictional. Examples:
+- "Tell me a story about ancient Rome."
+- "What was your most memorable travel experience?"
+
+### 9. **Planning**
+Queries that assist in planning or organizing activities, events, or projects. Examples:
+- "Help me plan a trip to Europe."
+- "What steps should I take to start a small business?"
+
+### 10. **Situational**
+Queries related to specific situations or scenarios that the user is facing, asking for tailored advice or solutions. Examples:
+- "What should I do if I lose my passport abroad?"
+- "How to handle a dispute with a coworker?"
+
+### 11. **Interpretative**
+Queries that ask for interpretation of texts, artworks, or other cultural artifacts. Examples:
+- "What is the interpretation of Picasso's Guernica?"
+- "Can you explain the symbolism in 'The Great Gatsby'?"
+
+### 12. **Decision-Making**
+Queries that assist the user in making decisions by evaluating options, risks, and benefits. Examples:
+- "Should I buy or lease a car?"
+- "Which is more cost-effective, renting or owning a home?"
+
+### 13. **Task Execution**
+Queries where the user delegates the completion of a specific task or action to the AI. This involves the AI taking on roles that might require decision-making, processing, or interacting with other systems to achieve the desired outcome. Examples:
+- "Draft an email response to a client asking for a detailed proposal of our services."
+- "Summarize the key points from the articles I've sent over regarding market trends in digital media for our next strategy meeting."
+
+### 14. **Interpretive Explanation**
+Queries in which the user seeks a detailed explanation or interpretation of a provided text snippet. This could include literary analysis, code explanation, or any form of textual dissection. The AI acts as an analytical tool to help users understand complex passages, technical descriptions, or conceptual writings. Examples:
+- "Explain the themes and symbolism in this paragraph from 'The Great Gatsby'."
+- "Break down this Python code snippet and explain what each function is doing."
+
+### 15. **Error Detection**
+Queries where the user seeks assistance in finding and diagnosing errors or bugs in provided materials. This could include syntactical errors in code, grammatical mistakes in written text, or inconsistencies in data sets. The AI acts as a diagnostic tool to help pinpoint and suggest corrections for these issues. Examples:
+- "Identify and explain the errors in this JavaScript code that prevent it from running."
+- "Check this essay for any grammatical mistakes and highlight them for me."
+
+### 16. **Digital Communication Design and Strategy**
+Queries focused on designing and strategizing content for optimal communication across digital platforms. This includes creating engaging designs and coherent strategies for websites, blogs, podcasts, emails, and digital essays. Examples:
+- "Develop a responsive website layout for a nonprofit organization that facilitates easy navigation and donor engagement."
+- "Craft a structured plan for a podcast series on technology trends, detailing the format and key topics for each episode."

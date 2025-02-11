@@ -1,0 +1,64 @@
+### 1. **Information-seeking**
+**Definition:** Queries aimed at acquiring factual knowledge or understanding about a specific topic
+- "What is quantum computing?"
+- "How do vaccines work?"
+
+### 2. **Help/Problem-solving**
+**Definition:** Queries seeking assistance with specific issues or challenges that need resolution
+- "How do I fix this error?"
+- "What's the best way to remove a stain?"
+
+### 3. **Verification/Validation**
+**Definition:** Queries asking to check the accuracy, correctness, or appropriateness of something
+- "Is this math solution correct?"
+- "Does this sentence sound natural?"
+
+### 4. **Opinion/Recommendation**
+**Definition:** Queries seeking subjective advice or suggestions based on preferences or criteria
+- "Which programming language should I learn?"
+- "What books do you recommend?"
+
+### 5. **Clarification**
+**Definition:** Queries asking for explanation of concepts, terms, or distinctions between related things
+- "What's the difference between UX and UI?"
+- "Can you explain this concept?"
+
+### 6. **Exploratory/Learning**
+**Definition:** Open-ended queries driven by curiosity without a specific information target
+- "Tell me about black holes"
+- "What are different meditation types?"
+
+### 7. **Creative/Generative**
+**Definition:** Queries requesting the creation of new content or ideas
+- "Write a poem about autumn"
+- "Create a workout plan"
+
+### 8. **Analysis**
+**Definition:** Queries asking for detailed examination or evaluation of content, data, or situations
+- "Review my essay"
+- "Analyze this data"
+
+### 9. **Social/Emotional**
+**Definition:** Queries seeking conversation, emotional support, or human-like interaction
+- "Let's discuss movies"
+- "I'm feeling overwhelmed"
+
+### 10. **Hypothetical/Scenario Analysis**
+**Definition:** Queries exploring potential outcomes or consequences of theoretical situations
+- "What if I invested $100 monthly?"
+- "How would this code behave if...?"
+
+### 11. **Comparative**
+**Definition:** Queries seeking evaluation of differences and similarities between options
+- "Compare Python vs JavaScript"
+- "What are pros/cons of renting vs buying?"
+
+### 12. **Procedural/How-to**
+**Definition:** Queries seeking step-by-step instructions or methodical guidance
+- "Steps to make sourdough bread"
+- "How do I install Linux?"
+
+### 13. **Planning/Strategy**
+**Definition:** Queries seeking structured approaches to achieve specific goals
+- "How should I prepare for interviews?"
+- "What's a good study plan?"
