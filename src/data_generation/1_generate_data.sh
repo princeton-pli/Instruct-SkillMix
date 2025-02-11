@@ -1,3 +1,6 @@
+source src/slurm/template.sh
+source ${API_KEYS}
+
 P=4
 k=2
 SEED=42
@@ -21,7 +24,7 @@ for tmp in {0..3}
 do
     python src/data_generation/1_generate_data.py \
         --num_thread ${P} \
-        --k $k \
+        --k ${k} \
         --seed ${SEED} \
         --chunk_size ${CHUNK_SIZE} \
         --num_data ${NUM_DATA} \

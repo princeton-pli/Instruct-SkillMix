@@ -1,3 +1,6 @@
+source src/slurm/template.sh
+source ${API_KEYS}
+
 P=4
 k=2
 SEED=42
