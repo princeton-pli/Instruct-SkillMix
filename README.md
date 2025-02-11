@@ -67,8 +67,20 @@ Insert your own API keys to `src/openai_configs.yaml` (for AlpacaEval annotation
 
 ### Generate Synthetic Data (TBD)
 
-- Generate data
-- Convert heldout data to AlpacaEval format (for checkpoint selection)
+Edit the relevant bash script `src/data_generation/1_generate_data.sh` and run 
+```Shell
+cd $PROJECT_DIR
+sbatch src/data_generation/1_generate_data.sh
+```
+
+To create held-out data for validation, change the `SEED` and `SAVE_PREFIX` variables and rerun the generation with smaller `NUM_DATA`.
+
+
+To create low quality data (brevity / junk), edit the relevant bash script `src/data_generation/2_generate_junk_data.sh` and run 
+```Shell
+cd $PROJECT_DIR
+sbatch src/data_generation/2_generate_junk_data.sh
+```
 
 ### Train Models
 
