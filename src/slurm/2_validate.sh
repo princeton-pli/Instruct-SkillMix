@@ -17,8 +17,7 @@ model_name=llama2_7b_base                                         # llama2_13b_b
 k=2                                                               # 1, 3
 NUM_TRAIN_EXAMPLES=1000                                           # 2000, 4000
 MODEL_STR=${model_name}_sda_k${k}_${NUM_TRAIN_EXAMPLES}           # ${model_name}_sdd_k${k}_${NUM_TRAIN_EXAMPLES}
-DATA_PATH=${PROJECT_DIR}/datasets/ism_sda_k${k}_${NUM_TRAIN_EXAMPLES}.json
-HELDOUT_DATA_NAME=ism_sda_k${k}_heldout                           # ism_sdd_k${k}_heldout
+HELDOUT_DATA_NAME=ism_sda_heldout_k${k}_100                       # ism_sdd_heldout_k${k}_100
 n_epochs=15
 
 # adjustable hyperparameters
